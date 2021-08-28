@@ -1,0 +1,17 @@
+Learning Django and Understanding the whole parts of it sometime cracking your head. So I just give a simple way to know whole thing and discover step by step if you want.
+
+Django is the Web Framework of Python with batteries included. It has everything which need to built Robust Framework. The main features or batteries is:
+
+1. The Model Layer,
+2. The Views Layer,
+3. The Template Layer 
+4. Forms
+5. The Development Process
+6. The Admin
+7. Security
+8. Internationalization and Localization
+9. Performance and Optimization
+10. Python compatibility
+11. Geographic framework
+12. Common Web Application Tools
+13. Other Core Functionalities
