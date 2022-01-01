@@ -8,12 +8,9 @@ add(6,8)
 #The returned value from map() (map object) then can be passed to functions like list() (to create a list), set() (to create a set) .
 
 nums = [2,8,6,4]
-
 def sqr(n):
-    n = n*n
-    
-output = map(sqr,nums)
-
+     return n*n
+output = list(map(sqr,nums))
 print(output)
 
 '''
@@ -22,3 +19,7 @@ fun : It is a function to which map passes each element of given iterable.
 iter : It is a iterable which is to be mapped.
 
 '''
+
+nums = [1, 2, 3, 4, 5]
+square = list(map(lambda x: x**x, nums))
+print(square)
