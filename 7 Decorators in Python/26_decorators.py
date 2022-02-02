@@ -16,6 +16,8 @@ Functions are no exceptions, they are objects too (with attributes).
 Various different names can be bound to the same function object.
 
 '''
+
+
 #Here is an example
 
 def first(msg):
