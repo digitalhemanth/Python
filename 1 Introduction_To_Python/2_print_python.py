@@ -10,4 +10,3 @@ print(bar)
 #Single quotes allow un-escaped embedding of double quotes.
 #Double quotes allow for embedding of un-escaped single quotes.
 
-
