@@ -3,6 +3,7 @@ from cgitb import reset
 
 
 temp = [9,6,3,1,6,8,9,2,1]
+print(temp.sort())
 result = []
 [result.append(x) for x in temp if x not in result ]
 print(len(result))
@@ -18,3 +19,6 @@ print(lists)
 print(lists[2])
 print(lists[::-1])
 """
+
+
+
