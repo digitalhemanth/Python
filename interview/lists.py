@@ -1,7 +1,6 @@
 
 from cgitb import reset
 
-
 temp = [9,6,3,1,6,8,9,2,1]
 val = iter(temp)
 print(next(val))
