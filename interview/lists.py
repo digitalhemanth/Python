@@ -3,7 +3,9 @@ from cgitb import reset
 
 
 temp = [9,6,3,1,6,8,9,2,1]
-temp.sort(reverse=True)
+val = iter(temp)
+print(next(val))
+
 result = []
 [result.append(x) for x in temp if x not in result ]
 print(len(result))
